@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
 
 	/* This parser sucks, but works. */
 	char *t = token(), *t1;
-	bool parser_ok = false;
+	bool parser_ok;
 	enum {
 		PC_EXIT,
 		PC_MAIN,
@@ -55,7 +55,7 @@ int main(int argc, char **argv) {
 	} parser_context = PC_MAIN;
 	track_t *tmptrack = NULL;
 	do {
-		if (t[0] == '#') continue;
+//		if (t[0] == '#') continue;
 		parser_ok = false;
 
 		switch (parser_context) {

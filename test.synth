@@ -52,7 +52,7 @@ function piu
 function ring
 	*
 		_saw
-			23
+			35
 			X
 		*
 			_triangle
