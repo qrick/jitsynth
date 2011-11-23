@@ -1,3 +1,6 @@
+Compile dependencies:
+    libjit
+
 Usage example:
 	aoss ./synth < test.synth
 
